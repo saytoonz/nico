@@ -1,0 +1,161 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	scrollbar-arrow-color:blue;
+  	scrollbar-track-color:#80FF80;
+  	scrollbar-shadow-color:#ffffff;
+  	scrollbar-face-color:#003300;
+  scrollbar-highlight-color:#003300;
+  scrollbar-darkshadow-color:#003300;
+  scrollbar-3dlight-color:#003300;
+}
+body{
+	background: #3cb9b9 ;
+}
+#all{
+	margin-top: 5%;
+	width: 280px;
+	height: 370px;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,1);
+	background: #3f65b7;
+	background-clip: padding-box;
+	border: 1px solid #172b4e;
+	border-bottom-color: #142647;
+	border-radius: 5px;
+	background-image: -webkit-radial-gradient(cover, #3cb9b9, #3cb9b9);
+	background-image: -moz-radial-gradient(cover, #3960a6, #3cb9b9);
+	background-image: -o-radial-gradient(cover, #3960a6, #3cb9b9);
+	background-image: radial-gradient(cover, #3cb9b9, #3cb9b9);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#logo img{
+	width: 40%;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	
+}
+
+#login form input[type="text"],[type="password"]{
+	padding: 5px;
+	width: 90%;
+	height: 35px;
+	background:rgba(0, 0, 0, 0.1);
+	margin-bottom: 5px;
+	border-radius: 7px;
+	border-top: 1px solid rgba(0, 0, 0,.7);
+	border-left: 1px solid rgba(0, 0, 0,.7);
+	border-bottom: 0px solid rgba(0, 0, 0,.7);
+	border-right: 0px solid rgba(0, 0, 0,.7);
+	margin-top: 17px;
+	color: white;
+	font-size: 13px;
+}
+
+#login form input[type="submit"]{
+	padding: 5px;
+	width: 40%;
+	height: 35px;
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 30%;
+	font-family: Lucida Fax;
+	font-weight: bolder;
+	font-size: 1em;	
+	display: block;
+	color: #294779;
+	text-align: center;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+	background-clip: padding-box;
+	border: 1px solid #284473;
+	border-bottom-color: #223b66;
+	border-radius: 4px;
+	cursor: pointer;
+	background-image: -webkit-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: -moz-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: -o-linear-gradient(top, #d0e1fe, #96b8ed);
+	background-image: linear-gradient(to bottom, #d0e1fe, #96b8ed);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+#login form input:hover[type="submit"]{
+	color: #eeffff;
+}
+#login form input.active {
+  background: #a4c2f3;
+  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.nsromapa{
+  margin: 55px auto 30px;
+  padding: 10px;
+  width: 250px;
+  font: 12px/18px 'Lucida Grande', Arial, sans-serif;
+  color: #ccc;
+  text-align: center;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
+  background: #383838;
+  background: rgba(34, 34, 34, 0.8);
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 0 6px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 0 6px rgba(0, 0, 0, 0.4);
+}
+.nsromapa a {
+  color: #eee;
+  text-decoration: none;
+  border-radius: 2px;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+.nsromapa a:hover {
+  text-decoration: none;
+  background: #555;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.nsromapa-links {
+  height: 30px;
+}
+.nsromapa-links > a {
+  float: left;
+  width: 50%;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.nsromapa-author {
+  margin-top: 5px;
+}
+.nsromapa-author > a {
+  padding: 1px 3px;
+  margin: 0 -1px;
+}
+.forgetPwd{
+	text-align: center;
+}
+.forgetPwd > a{
+	font-size:12px;
+	font-family: Lucida Fax;
+	text-decoration: none;
+	text-shadow: 0px 1px rgba(0,0,0,.3);
+	color: #eef;
+}
+.forgetPwd > a:hover{
+	text-decoration: underline;
+	text-shadow: 0px -1px rgba(0,0,0,.5);
+}
+.forgetPwd  i{
+	color: #ff0000;
+	font-size:13px;
+}
